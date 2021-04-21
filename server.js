@@ -7,7 +7,7 @@ const express = require('express');
 var app = express();
 
 // create our server
-var server = app.listen(3000);
+var server = app.listen(3003);
 
 // have my application use files in the public folder
 app.use(express.static('public'));

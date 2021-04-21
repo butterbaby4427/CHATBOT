@@ -40,7 +40,7 @@ function newConnection(socket){
     socket.on('guess', guessMsg);
 
     async function guessMsg(data){
-        console.log('guessing!');
+        // console.log('guessing!');
         // "I'm playing soccer tonight :)"
         ml_ready_data = cleanup(data);
 

@@ -39,7 +39,7 @@ function setup() {
   machine_text = createP();
 
   // set up socket
-  socket = io.connect('http://localhost:3000');
+  socket = io.connect('http://aet395.imany.io:3003/');
   socket.on('guess', makeAGuess);
 }
 
@@ -52,7 +52,7 @@ function enteredChat(){
 }
 
 function makeAGuess(data){
-  console.log("guessing!");
+  // console.log("guessing!");
   
   switch(data){ //THIS IS UGLY FIX THIS LATER!!!!
     case "music":
@@ -71,7 +71,7 @@ function makeAGuess(data){
       backLog.splice(0,0,new message("bot",gaming_responses[Math.floor(Math.random() * gaming_responses.length)]));
       break;
   }
-  console.log(backLog);
+  // console.log(backLog);
 
   // if(data == 'music'){
   //   machine_text.html(music_respones[Math.floor(Math.random() * music_respones.length)]);

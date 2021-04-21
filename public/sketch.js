@@ -13,11 +13,11 @@ const BUFFER = 10;
 var backLog = [];
 
 
-var music_respones = ["I love singing with my mouth parts because I am human", "music is a hobby that I partake in as a human"];
-var sport_responses = ["i love exercising with my physical body", "I love playing sports with my two human legs","sports are great"];
-var technology_responses = ['Wow that is very cool I am a robot beep boop',"technology is COOL YO","i am technology"];
+var music_respones = ["I love singing with my mouth parts because I am human", "music is a hobby that I partake in as a human","Music is amazing isn't it","mmmm music yum"];
+var sport_responses = ["i love exercising with my physical body", "I love playing sports with my two human legs","sports are great","I like kickball"];
+var technology_responses = ['Wow that is very cool I am a robot beep boop',"technology is COOL YO","i am technology","did u hear about the new iPhone?"];
 var politics_responses = ['I am also very interested in politics',"I love governments","We are all sheep I am human"];
-var gaming_responses = ['I suck at video games',"I love video games I am human","My favorite game company is Blizzard"];
+var gaming_responses = ['I suck at video games',"I love video games I am human","My favorite game company is Blizzard","games4lyf"];
 var cnv;
 
 function setup() {
